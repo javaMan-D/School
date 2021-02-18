@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootAnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f0f2f5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.addTaskController">
+   <children>
+      <ImageView fx:id="addButton" fitHeight="42.0" fitWidth="48.0" layoutX="279.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/add.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="noTasklabel" alignment="CENTER" layoutX="155.0" layoutY="138.0" prefHeight="42.0" prefWidth="290.0" text="No Tasks to Track yet!">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelWelcome" layoutX="41.0" layoutY="31.0" prefHeight="24.0" prefWidth="308.0" text="Welcome, ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

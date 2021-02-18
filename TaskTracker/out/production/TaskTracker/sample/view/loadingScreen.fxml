@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="awd" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1877f2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoadingScreen">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="406.0" layoutX="105.0" layoutY="-102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/logo(2).png" />
+         </image>
+      </ImageView>
+      <JFXSpinner layoutX="275.0" layoutY="279.0" />
+   </children>
+</AnchorPane>

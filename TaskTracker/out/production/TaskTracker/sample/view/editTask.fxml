@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #f0f2f5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.EditTaskController">
+   <children>
+      <JFXTextField fx:id="editTaskField" focusColor="#1877f2" labelFloat="true" layoutX="42.0" layoutY="66.0" prefHeight="31.0" prefWidth="317.0" promptText="Task" />
+      <JFXTextField fx:id="editDescriptionField" focusColor="#1877f2" labelFloat="true" layoutX="42.0" layoutY="121.0" prefHeight="31.0" prefWidth="317.0" promptText="Description" />
+      <JFXTextField fx:id="editUrgencyField" focusColor="#1877f2" labelFloat="true" layoutX="42.0" layoutY="185.0" prefHeight="31.0" prefWidth="317.0" promptText="Urgency" />
+      <JFXButton fx:id="editTaskButton" layoutX="117.0" layoutY="260.0" prefHeight="50.0" prefWidth="167.0" style="-fx-background-color: #1877f2;" text="Edit Task" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
